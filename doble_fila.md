@@ -62,6 +62,23 @@ sino
 	Ad = (Ad==0)?limite:Ad-1
 Fin Si
 ```
+####Consultas
+#####Izquierda
+```
+Si Ai == -1 Entonces
+	Mostrar Fila Vacia
+sino
+	Mostrar vector[ai]
+Fin Si
+```
+#####Derecha
+```
+Si Ai == -1 Entonces
+	Mostrar Fila Vacia
+sino
+	Mostrar vector[ad]
+Fin Si
+```
 ####Reporte/Recorrido
 #####Izquierdo
 ```
