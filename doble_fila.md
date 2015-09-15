@@ -16,7 +16,7 @@ Si Ai == -1 Entonces #Esta vacio
     Ad = 0
 	Leer valor
 	vector[0] = valor
-de otra manera si (Ad=Ai-1) Ó (Ad=6 Y Ai=0) Entonces
+de otra manera si (Ad=Ai-1) Ó (Ad=limite Y Ai=0) Entonces
 	Mostrar Fila Llena
 Sino
     Ai = (Ai==0)?limite:Ai-1
@@ -31,7 +31,7 @@ Si Ai == -1 Entonces #Esta vacio
     Ad = 0
 	Leer valor
 	vector[0] = valor
-de otra manera si (Ad=Ai-1) Ó (Ad=6 Y Ai=0) Entonces
+de otra manera si (Ad=Ai-1) Ó (Ad=limite Y Ai=0) Entonces
 	Mostrar Fila Llena
 Sino
     Ad = (Ad==limite)?0:Ad+1
