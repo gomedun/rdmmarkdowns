@@ -63,9 +63,19 @@ sino
 Fin Si
 ```
 ####Reporte/Recorrido
+#####Izquierdo
 ```
 Desde i=Ai Hasta i=Ad i++
-	Si i = limite
+	Si i = (limite+1)
+    	i=0
+    Fin Si
+	Mostrar i, vector[i]
+Fin Desde
+```
+#####Derecha
+```
+Desde i=Ad Hasta i=Ai i--
+	Si i = -1
     	i=0
     Fin Si
 	Mostrar i, vector[i]
